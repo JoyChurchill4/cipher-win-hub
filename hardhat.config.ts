@@ -38,6 +38,9 @@ const config: HardhatUserConfig = {
         mnemonic: MNEMONIC,
       },
       chainId: 31337,
+      // FHEVM-specific settings for local development
+      allowUnlimitedContractSize: true,
+      blockGasLimit: 10000000,
     },
     anvil: {
       accounts: {
@@ -47,6 +50,9 @@ const config: HardhatUserConfig = {
       },
       chainId: 31337,
       url: "http://localhost:8545",
+      // FHEVM compatibility settings
+      allowUnlimitedContractSize: true,
+      blockGasLimit: 10000000,
     },
     sepolia: {
       accounts: {
@@ -56,6 +62,9 @@ const config: HardhatUserConfig = {
       },
       chainId: 11155111,
       url: `https://sepolia.infura.io/v3/${INFURA_API_KEY}`,
+      // FHEVM network settings
+      gasPrice: 20000000000, // 20 gwei
+      gasLimit: 5000000,
     },
   },
   paths: {
