@@ -10,6 +10,11 @@ A privacy-preserving lottery system built on FHEVM (Fully Homomorphic Encryption
 _The bundled recording (~10 MB) walks through the refreshed UI, Sepolia deployment, and the encrypted selection lifecycle end-to-end._
 
 
+**Video Highlights**
+- Dashboard tour showing candidate enrollment and selection readiness indicators
+- Live run of the encrypted selection on Sepolia using the deployed `EncryptedRandomSelector` contract
+- Local ciphertext reveal workflow demonstrating proof-based decryption and audit trail checks
+
 ## 📋 Overview
 
 The Encrypted Random Selector establishes a privacy-preserving draw to choose employees or DAO members without revealing identities. All participant submissions are encrypted end-to-end and selections run entirely within Zama's FHEVM.
