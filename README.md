@@ -7,6 +7,8 @@ A privacy-preserving lottery system built on FHEVM (Fully Homomorphic Encryption
 **Project URL**: https://pro3-bice.vercel.app/
 
 **Demo Video**: [Watch the demonstration](./raffle.mp4)
+_The bundled recording (~10 MB) walks through the refreshed UI, Sepolia deployment, and the encrypted selection lifecycle end-to-end._
+
 
 ## ğŸ“‹ Overview
 
@@ -14,11 +16,11 @@ The Encrypted Random Selector establishes a privacy-preserving draw to choose em
 
 ### Key Features
 
-â€¢ **Encrypted onboarding** - Participants submit encrypted identity handles
-â€¢ **Random selection under FHE** - Winner selection happens on-chain with encrypted data
-â€¢ **Controlled decryption** - Authorized parties can decrypt results for auditability
+â€?**Encrypted onboarding** - Participants submit encrypted identity handles
+â€?**Random selection under FHE** - Winner selection happens on-chain with encrypted data
+â€?**Controlled decryption** - Authorized parties can decrypt results for auditability
 
-## ğŸ—ï¸ Architecture
+## ğŸ—ï¸?Architecture
 
 ### Smart Contract (`EncryptedRandomSelector.sol`)
 
@@ -227,7 +229,7 @@ Enroll a new participant with encrypted identity handle.
 #### `generateEncryptedSelection()`
 Generate a random encrypted winner index.
 
-#### `getEncryptedWinner() â†’ euint32`
+#### `getEncryptedWinner() â†?euint32`
 Retrieve the encrypted winner handle for decryption.
 
 #### `resetRound()`
@@ -273,3 +275,4 @@ BSD-3-Clause-Clear License
 - [Zama FHEVM](https://www.zama.ai/)
 - [OpenZeppelin Contracts](https://openzeppelin.com/contracts/)
 - [Hardhat](https://hardhat.org/)
+
