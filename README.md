@@ -4,7 +4,7 @@ A privacy-preserving lottery system built on FHEVM (Fully Homomorphic Encryption
 
 ## Live Demo
 
-- Project URL: https://pro3-bice.vercel.app/
+- Project URL: https://cipher-win-hub-mjpj.vercel.app/
 - Demo Video: [Watch the demonstration](./raffle.mp4)
   - The bundled recording (~10 MB) walks through the refreshed UI, Sepolia deployment, and the encrypted selection lifecycle end to end.
 
